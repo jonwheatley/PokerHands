@@ -1,4 +1,4 @@
-<% 10000.times do |hand| %>
+<% 1000.times do |hand| %>
 	<% @pull = @deck.sample(7) %>
 	<% @pull.each do |card| %>
 		<%= image_tag card_image(card) %>
